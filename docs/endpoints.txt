@@ -1,0 +1,20 @@
+account.create
+
+league.create
+league.invite
+league.getMembers (incl role)
+
+member.requestToJoin
+member.getLeagues
+
+leagueMember.getTeam
+
+draft.pick
+draft.getTurn
+
+team.getPlayers (incl position, stats, injury)
+
+notification.create
+
+
+start with creating an account and logging in.

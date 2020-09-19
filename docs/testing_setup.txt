@@ -1,0 +1,12 @@
+How to Setup the Testing Environment on Localhost
+
+run MySQL Installer and configure server
+go to last option and apply configuration. This will start the server.
+Run SQLyog and connect to the localhost.
+if object browser isnt showing up, hit Ctrl + B
+open mysql command line client and run `use baseball; source path\to\_MASTER_.sql`
+
+
+go get github.com/go-sql-driver/mysql
+go get github.com/gorilla/mux
+go get github.com/twinj/uuid

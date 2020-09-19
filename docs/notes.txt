@@ -1,0 +1,23 @@
+Will have to deal with when a player is no longer returned by fantasybaseballnerd, but is in use in peoples teams.
+Some examples of when this would happen: a player retires, a player is demoted out of mlb.
+
+Will have to deal with when a league owner deletes their account or league
+
+what to do if any of the things are deleted that have a reference id in notification table
+
+todo items (not a priority):
+    player photos
+    trading
+    auto score keeping
+    divisions (split league into different groups for places)
+
+notifications that will exist:
+    your turn to draft
+    your player was injured
+    someone wants to join your league
+    someone invited you to join their league
+    your player is inactive
+
+automated processes:
+    refreshing players and their stats, setting players inactive: notification
+    populating injuries: notification
